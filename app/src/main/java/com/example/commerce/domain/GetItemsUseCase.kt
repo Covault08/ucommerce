@@ -16,7 +16,7 @@ class GetItemsUseCase @Inject constructor(
     fun getItems(): Flow<UiState<List<ItemDomain>>> = flow {
         emit(UiState.LOADING)
         try {
-            val result = repository.callItems(body = 1)
+            val result = repository.callItems(2)
             if (result.isSuccessful) {
                 result.body()?.data?.let {
                     val items = it.toDomain()
