@@ -90,8 +90,8 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.8.7")
     //GLIDE
     implementation ("com.github.bumptech.glide:glide:4.16.0")
-    //Coil
-    implementation("io.coil-kt:coil-compose:2.2.2")
+    // Coil
+    implementation("io.coil-kt:coil-compose:2.4.0")
     //coroutines
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.6.4")
     testImplementation("androidx.arch.core:core-testing:2.2.0")
